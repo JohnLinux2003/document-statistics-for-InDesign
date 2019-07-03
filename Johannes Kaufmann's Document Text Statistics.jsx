@@ -23,6 +23,8 @@
             dReport.push ( "Letters in each textframe", "------------------------------", "= " + lF, "" );
             dReport.push ( "Average characters per textframe", "------------------------------", "= " + Math.round(aC) , "" );
             dReport.push ( "Average words per textframe", "------------------------------", "= " + aWr , "" );
+            dReport.push ( "Words in footnotes", "------------------------------", "= " + dFword , "" );
+            dReport.push ( "Words in tables", "------------------------------", "= " + dTword , "" );
             dReport.push ( "", "", "" ,"Johannes Kaufmann©2019" );
             
             alert ( dReport.join ( "\r" ), "Johannes Kaufmann's Document Text Statistics" );
